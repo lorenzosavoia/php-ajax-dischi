@@ -15,15 +15,11 @@
 <body>
     <?php include_once __DIR__ . '/partial/header.php' ?>
 
-    <main class="container-fluid">
-        <div class="row cards d-flex justify-content-center">
+    
+    <?php include_once __DIR__ . '/partial/mainVue.php' ?>
 
-            <?php include_once __DIR__ . '/partial/main.php' ?>
-        </div>
-    </main>
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
